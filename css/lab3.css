@@ -16,6 +16,15 @@ html {
 	width: 80%;
 	margin: 0 auto;
 }
-li {
+ul {
 	list-style: none;
+	padding: 0 0;
+	
+	display: flex;
+}
+li {
+	margin-left: 2px;
+	margin-right: 2px;
+	background-color: lightgray;
+	padding: 3px;
 }
