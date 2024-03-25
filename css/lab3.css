@@ -16,10 +16,25 @@ html {
 	width: 80%;
 	margin: 0 auto;
 }
+.tabs {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.tabpanel {
+	display: none;
+		padding: 20px;
+		border-top: 1px solid #ccc;
+}
+
+ul li {
+	flex: 1;
+	text-align: center;
+	border-radius: 3px;
+}
 ul {
 	list-style: none;
 	padding: 0 0;
-	
 	display: flex;
 }
 li {
@@ -27,4 +42,12 @@ li {
 	margin-right: 2px;
 	background-color: lightgray;
 	padding: 3px;
+}
+a {
+	display: block;
+	text-decoration: none;
+	
+}
+a:hover {
+	background-color: white;
 }
