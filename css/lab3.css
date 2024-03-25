@@ -51,6 +51,6 @@ a {
 a:hover {
 	background-color: white;
 }
-[role="tab"] .active {
-	background-color: aquamarine;
+.active {
+	background-color: bisque;
 }
