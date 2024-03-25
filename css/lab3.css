@@ -16,3 +16,6 @@ html {
 	width: 80%;
 	margin: 0 auto;
 }
+li {
+	list-style: none;
+}
