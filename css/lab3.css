@@ -19,12 +19,12 @@ html {
 .tabs {
 	border: 1px solid #ccc;
 	border-radius: 5px;
-	overflow: hidden;
+	
 }
-.tabpanel {
-	display: none;
-		padding: 20px;
-		border-top: 1px solid #ccc;
+[role="tabpanel"] {
+	/* display: none; */
+	padding: 20px;
+	border-top: 1px solid black;
 }
 
 ul li {
