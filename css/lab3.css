@@ -22,11 +22,12 @@ html {
 	
 }
 [role="tabpanel"] {
-	/* display: none; */
 	padding: 20px;
 	border-top: 1px solid black;
 }
-
+.inactive {
+	display: none;
+}
 ul li {
 	flex: 1;
 	text-align: center;
